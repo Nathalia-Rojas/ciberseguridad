@@ -1,3 +1,35 @@
-* {
-    box-sizing: border-box;
+.card-header {
+    background-color: #343a40 !important; 
+    color: #ffffff; 
+    font-weight: 600; 
+    border-bottom: none; 
+    padding: 1.25rem 1.5rem; 
+    font-size: 1.3rem; 
 }
+
+.list-group-item {
+    background-color: #ffffff; 
+    border-color: #e9ecef; 
+    padding: 1.25rem 1.5rem; 
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease; 
+}
+
+.list-group-item:hover {
+    background-color: #e2f0ff; 
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15); 
+}
+
+.btn-primary:hover, .btn-success:hover {
+    transform: translateY(-3px); 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); 
+}
+
+
+.modal-content {
+    border: none;
+    border-radius: 1rem;
+
+}
+
+

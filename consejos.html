@@ -44,28 +44,28 @@
     <section>
         <h2 class="mb-4 text-center">Buenas Prácticas de Ciberseguridad</h2>
         <ul class="list-group list-group-flush shadow-sm mb-5"> <li class="list-group-item d-flex align-items-center">
-                <i class="bi bi-key-fill text-primary fs-4 me-3"></i>
+                <i class="text-primary fs-4 me-3"></i>
                 <div>
                     <h5 class="mb-1">Utiliza Contraseñas Seguras y Únicas</h5>
                     <p class="text-muted mb-0">Crea contraseñas largas y complejas, combinando letras, números y símbolos. Usa una diferente para cada cuenta importante.</p>
                 </div>
             </li>
             <li class="list-group-item d-flex align-items-center">
-                <i class="bi bi-person-check-fill text-success fs-4 me-3"></i>
+                <i class="text-success fs-4 me-3"></i>
                 <div>
                     <h5 class="mb-1">Activa la Autenticación de Dos Factores (2FA)</h5>
                     <p class="text-muted mb-0">Añade una capa extra de seguridad. Incluso si tu contraseña es robada, tu cuenta estará protegida.</p>
                 </div>
             </li>
             <li class="list-group-item d-flex align-items-center">
-                <i class="bi bi-link-45deg text-warning fs-4 me-3"></i>
+                <i class=" text-warning fs-4 me-3"></i>
                 <div>
                     <h5 class="mb-1">Ten Cuidado con Enlaces y Archivos Sospechosos</h5>
                     <p class="text-muted mb-0">No hagas clic en enlaces ni descargues archivos de remitentes desconocidos. Podrían ser intentos de phishing o malware.</p>
                 </div>
             </li>
             <li class="list-group-item d-flex align-items-center">
-                <i class="bi bi-cloud-arrow-up-fill text-info fs-4 me-3"></i>
+                <i class="text-info fs-4 me-3"></i>
                 <div>
                     <h5 class="mb-1">Realiza Copias de Seguridad Regularmente</h5>
                     <p class="text-muted mb-0">Guarda tus archivos importantes en la nube o en un disco externo para protegerlos contra ataques de ransomware o pérdida de datos.</p>
@@ -74,33 +74,11 @@
         </ul>
     </section>
 
-    <section class="mb-5"> <div class="card shadow-sm"> <div class="card-header bg-dark text-white"> <h2 class="card-title mb-0 text-center">Formulario de Contacto</h2>
-            </div>
-            <div class="card-body"> <form id="contactoForm">
-                    <div class="mb-3">
-                        <label for="nombre" class="form-label">Nombre</label>
-                        <input type="text" class="form-control" id="nombre" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="correo" class="form-label">Correo Electrónico</label>
-                        <input type="email" class="form-control" id="correo" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="mensaje" class="form-label">Mensaje</label>
-                        <textarea class="form-control" id="mensaje" rows="4" required></textarea>
-                    </div>
-                    <div class="d-grid"> <button type="submit" class="btn btn-success btn-lg">Enviar</button> </div>
-                </form>
-                <div id="alerta" class="alert alert-info mt-3 d-none">Formulario enviado correctamente.</div>
-            </div>
-        </div>
-    </section>
-
     <section class="mb-5"> <div class="card shadow-sm"> <div class="card-header bg-dark text-white"> <h2 class="card-title mb-0 text-center">Prueba tus conocimientos</h2>
             </div>
             <div class="card-body text-center"> <p class="card-text mb-4">¿Estás listo para verificar cuánto sabes sobre ciberseguridad?</p>
                 <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#testModal">
-                    Realizar Test <i class="bi bi-patch-question-fill ms-2"></i> </button>
+                    Realizar Test <i class="ms-2"></i> </button>
             </div>
         </div>
     </section>
@@ -144,6 +122,28 @@
             </div>
         </div>
     </div>
+
+    <section class="mb-5"> <div class="card shadow-sm"> <div class="card-header bg-dark text-white"> <h2 class="card-title mb-0 text-center">Formulario de Contacto</h2>
+            </div>
+            <div class="card-body"> <form id="contactoForm">
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="correo" class="form-label">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="correo" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensaje" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="mensaje" rows="4" required></textarea>
+                    </div>
+                    <div class="d-grid"> <button type="submit" class="btn btn-success btn-lg">Enviar</button> </div>
+                </form>
+                <div id="alerta" class="alert alert-info mt-3 d-none">Formulario enviado correctamente.</div>
+            </div>
+        </div>
+    </section>
 </main>
 
 <footer class="bg-dark text-white text-center py-4 mt-5">
